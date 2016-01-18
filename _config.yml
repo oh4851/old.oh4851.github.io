@@ -11,7 +11,7 @@ highlighter: pygments
 title : oh4851
 tagline: Site Tagline
 author :
-  name : Hyeok
+  name : Hyeok Oh
   email : oh4851@gmail.com
   github : oh4851
 #  twitter : username
@@ -69,11 +69,9 @@ JB :
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change them here if needed.
   #
-  archive_path: /archive.html
-  categories_path : /categories.html
-  tags_path : /tags.html
-  atom_path : /atom.xml
-  rss_path : /rss.xml
+  about_path: /about/index.html
+  blog_path : /blog/index.html
+  contact_path : /contact/index.html
 
   # Settings for comments helper
   # Set 'provider' to the comment provider you want to use.
