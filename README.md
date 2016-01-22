@@ -12,6 +12,6 @@ __License__ : Artistic License 2.0
 
 ## Use
 
-- Jekyll-Bootstrap (hooligan theme)
+- Jekyll-Bootstrap (basic theme)
     - `License`: [MIT](http://opensource.org/licenses/MIT)
 
