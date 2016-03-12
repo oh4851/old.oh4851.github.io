@@ -1,23 +1,43 @@
 ---
 layout: page
-title : About
+title : "About"
 group: navigation
 permalink: "/about/"
 weight: 1
 ---
 {% include JB/setup %}
-
-<ul class="tag_box inline">
-  {% assign categories_list = site.categories %}
-  {% include JB/categories_list %}
+<ul>
+  <li><h4>HYEOK OH</h4></li>
+    Web Developer, WithNature Team<br>
+    <strong>HAPPYF&C FOUNDATION</strong>, Wellbeing
+  <li><h4>TECHNICAL SKILLS</h4></li>
+  <strong>Programming Languages</strong><br>
+    <ul>
+      <li>Proficient in - C, Java, ASP Classic, MSSQL</li>
+      <li>Experienced in - Python, Shell script, Javascript, Bootstrap</li>
+    </ul>
+    <strong>Software Tools</strong><br>
+    <ul>
+      <li>Proficient in - Eclipse, Git client, Notepad++</li>
+      <li>Experienced in - Vim, Sublime Text, Visual Studio, IntelliJ</li>
+    </ul>
+  <li><h4>EDUCATION</h4></li>
+    <strong>2009 - 2015</strong><br>
+    <ul>
+      <li>
+      <strong>SoonChunHyang Univ.</strong> Korea<br>
+      <span>Medical IT Engineering Bachelor</span>
+      </li>
+    </ul>
+  <li><h4>EXPERIENCE</h4></li>
+    <strong>2009.03 - 2009.12</strong><br>
+    <ul>
+      <li>
+      <strong>Sample Title 1</strong> Korea - <span>Sample Position</span><br>
+      <div style="border:1px solid #008800;width:60%;"></div>
+      <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum suscipit urna nec bibendum. Aliquam tincidunt sapien rutrum ligula tristique laoreet. Aenean nec velit nulla. Quisque venenatis fringilla ligula vitae placerat. Etiam in elit luctus risus sollicitudin tempus. Curabitur eros mauris, maximus in urna at, cursus posuere turpis. Nam est dui, sodales id efficitur at, mattis quis lorem. Integer cursus ex placerat augue viverra
+      </p>
+      </li>
+    </ul>
 </ul>
-
-
-{% for category in site.categories %} 
-  <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h2>
-  <ul>
-    {% assign pages_list = category[1] %}  
-    {% include JB/pages_list %}
-  </ul>
-{% endfor %}
-

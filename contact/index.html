@@ -7,16 +7,13 @@ weight: 3
 ---
 {% include JB/setup %}
 
-<ul class="tag_box inline">
-  {% assign tags_list = site.tags %}  
-  {% include JB/tags_list %}
+<ul>
+  <li><h4>Mobile</h4></li>
+  <i style="color:#00bbbb;" class="glyphicon glyphicon-phone"></i> +82)10-5092-9207
+  <li><h4>Email(private)</h4></li>
+  <i style="color:#bb0000;" class="glyphicon glyphicon-envelope"></i> <a href="mailto:oh4851@gmail.com">oh4851@gmail.com</a>
+  <li><h4>Email(office)</h4></li>
+  <i style="color:#0055bb;" class="glyphicon glyphicon-envelope"></i> <a href="mailto:oh4851@happyfnc.org">oh4851@happyfnc.org</a>
+  <li><h4>GitHub</h4></li>
+  <i style="color:#00bbbb;" class="glyphicon glyphicon-folder-open"></i> <a href="https://github.com/oh4851">https://github.com/oh4851</a>
 </ul>
-
-
-{% for tag in site.tags %} 
-  <h2 id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>
-  <ul>
-    {% assign pages_list = tag[1] %}  
-    {% include JB/pages_list %}
-  </ul>
-{% endfor %}

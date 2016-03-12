@@ -1,12 +1,11 @@
 ---
 layout: post
+title: "TEST_POST 1"
 category : socc
-tagline: "Supporting tagline"
+tagline:
 tags : [intro, beginner, jekyll, tutorial]
 ---
 {% include JB/setup %}
-
-__Hello Socc__
 
 오늘의 참석자
 
